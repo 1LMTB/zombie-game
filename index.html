@@ -78,7 +78,7 @@
       center: {lat: 51.726937, lng: -0.683729}
         });
         if(navigator.geolocation) {
-    navigator.geolocation.watchPosition(set_my_position);
+    navigator.geolocation.getCurrentPosition(set_my_position);
 }
 else {
     alert("Geolocation doesn't work in your browser");
