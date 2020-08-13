@@ -77,6 +77,12 @@
       zoom: 10,
       center: {lat: 51.726937, lng: -0.683729}
         });
+        if(navigator.geolocation) {
+    navigator.geolocation.watchPosition(set_my_position);
+}
+else {
+    alert("Geolocation doesn't work in your browser");
+}
         for(var i=0; i < markers.length; i++){
         var marker_data = markers[i].trim();
         marker_data = marker_data.split(" ");
@@ -91,12 +97,6 @@
         });
         all_markers.push(marker);
         }
-        if(navigator.geolocation) {
-    navigator.geolocation.watchPosition(set_my_position);
-}
-else {
-    alert("Geolocation doesn't work in your browser");
-}
         }
   function set_my_position(position){
     var pos = new google.maps.LatLng(position.coords.latitude, position.coords.latitude);
