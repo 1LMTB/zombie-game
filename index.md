@@ -108,7 +108,7 @@ else {
     }
 </script>
     <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTQg0Oz070jw0dEPspC5QTTZIgCm2QmF8&callback=initMap">
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTQg0Oz070jw0dEPspC5QTTZIgCm2QmF8&callback=initMap:122">
     </script>
   </body>
 </html>
