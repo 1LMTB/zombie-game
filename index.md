@@ -59,18 +59,18 @@
 62.08976551788834 26.910926447934322 https://github.com/1LMTB/zombie-game/blob/master/weapons.png
 63.456543217509655 53.27616643675212 https://github.com/1LMTB/zombie-game/blob/master/weapons.png
 50.44743596527094 68.04179143675212 https://github.com/1LMTB/zombie-game/blob/master/weapons.png
-66.45883085499152 92.01624068669183 hospital.png
-58.2839833133433 60.55139693669183 hospital.png
-60.70549004384929 108.2329975157471 hospital.png
-69.43444036787606 136.5337787657471 hospital.png
-70.28173322637815 111.7486225157471 hospital.png
-60.61509747476252 77.51307896218903 hospital.png
-65.46380924308578 67.49354771218904 hospital.png
--21.178341599163375 -54.14155385398133 hospital.png
-45.66659645389221 -92.11030385398132 hospital.png
--1.9898550406154187 27.420946146018668 hospital.png
--35.93494122816598 134.29594614601868 hospital.png
-78.79097096179447 -42.89155385398133 hospital.png`;
+66.45883085499152 92.01624068669183 https://github.com/1LMTB/zombie-game/blob/master/hospital.png
+58.2839833133433 60.55139693669183 https://github.com/1LMTB/zombie-game/blob/master/hospital.png
+60.70549004384929 108.2329975157471 https://github.com/1LMTB/zombie-game/blob/master/hospital.png
+69.43444036787606 136.5337787657471 https://github.com/1LMTB/zombie-game/blob/master/hospital.png
+70.28173322637815 111.7486225157471 https://github.com/1LMTB/zombie-game/blob/master/hospital.png
+60.61509747476252 77.51307896218903 https://github.com/1LMTB/zombie-game/blob/master/hospital.png
+65.46380924308578 67.49354771218904 https://github.com/1LMTB/zombie-game/blob/master/hospital.png
+-21.178341599163375 -54.14155385398133 https://github.com/1LMTB/zombie-game/blob/master/hospital.png
+45.66659645389221 -92.11030385398132 https://github.com/1LMTB/zombie-game/blob/master/hospital.png
+-1.9898550406154187 27.420946146018668 https://github.com/1LMTB/zombie-game/blob/master/hospital.png
+-35.93494122816598 134.29594614601868 https://github.com/1LMTB/zombie-game/blob/master/hospital.png
+78.79097096179447 -42.89155385398133 https://github.com/1LMTB/zombie-game/blob/master/hospital.png`;
     var markers = data.split("\n");
     function initMap() {
       zombie_map = new google.maps.Map(document.getElementById('zombie_map'), {
