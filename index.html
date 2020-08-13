@@ -77,12 +77,14 @@
       zoom: 10,
       center: {lat: 51.726937, lng: -0.683729}
         });
-        if(navigator.geolocation) {
+        zombie_map.addListener('click', function(e) {
+          if(navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(set_my_position);
 }
 else {
     alert("Geolocation doesn't work in your browser");
 }
+          });
         for(var i=0; i < markers.length; i++){
         var marker_data = markers[i].trim();
         marker_data = marker_data.split(" ");
