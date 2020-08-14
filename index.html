@@ -23,7 +23,7 @@
         });
     }
     function getLocation() {
-      navigator.geolocation.getCurrentPosition(showPos);
+      navigator.geolocation.watchPosition(showPos);
       }
     function showPos(location) {
       var marker = new google.maps.Marker({
