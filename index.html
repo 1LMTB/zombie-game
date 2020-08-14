@@ -12,6 +12,7 @@
   <body>
     My zombie map
 <div id="zombie_map"></div>
+<button onclick="getLocation()">Mark</button>
     <script>
     var zombie_map;
     function initMap() {
@@ -20,6 +21,15 @@
             zoom: 10,
             center: {lat: 52.206727, lng: 0.124450}
         });
+    }
+    function getLocation() {
+      navigator.geolocation.getCurrentPosition(showPos);
+      }
+    function showPos(location) {
+      var marker = new google.maps.Marker({
+  position: {lat: location.coords.latitude, lng: location.coords.longitude },
+  map: zombie_map
+});
     }
 </script>
     <script async defer
